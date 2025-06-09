@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro MELI</title>
+  </head>
+
+  <body>
+    <div align="center">
+      <h1>Cadastro MELI</h1>
+      <hr />
+      <br />
+      <form action="https://example.com.br/castratomercadolivre" method="post">
+        <table>
+          <tr>
+            <td align=" right">
+              <label>Nome: <input type="text" required /></label>
+            </td>
+          </tr>
+          <tr>
+            <td align="right">
+              <label>
+                CPF:
+                <input
+                  type="text"
+                  name="cpf"
+                  placeholder="000.000.000-00"
+                  pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}\-[0-9]{2}"
+                  title="Digite o seu CPF"
+                  required
+                />
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td align="right">
+              <label
+                >Endereço: <input type="text" name="" id="" required
+              /></label>
+            </td>
+          </tr>
+          <tr>
+            <td align="right">
+              <label
+                >Telefone:
+                <input type="tel" placeholder="00 00000-0000" required
+              /></label>
+            </td>
+          </tr>
+          <tr>
+            <td align="right">
+              <label
+                >Email:
+                <input type="email" placeholder="example@email.com.br" required
+              /></label>
+            </td>
+          </tr>
+          <tr>
+            <td align="right">
+              <label>Senha: <input type="password" required /></label>
+            </td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td>
+              <p><input type="reset" value="Limpar" /></p>
+            </td>
+            <td>
+              <p><input type="submit" /></p>
+            </td>
+          </tr>
+        </table>
+        <hr />
+        <button align="right">
+          <a
+            href="./cadastroVendedor.html"
+            style="text-decoration: none; color: inherit"
+            >Próximo
+          </a>
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

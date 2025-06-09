@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro Produto</title>
+</head>
+
+<body>
+    <div align="center">
+        <section id="cadastro-produto">
+            <h2>Cadastro de Produto</h2>
+            <hr />
+            <form action="https://example.com.br/castratoProdutoMercadolivre">
+                <table>
+                    <tr>
+                        <td align="right">
+                            <label>Nome do Produto:<input type="text" name="nome_produto" required /></label>
+                        </td>
+                    </tr>
+                    <tr rowspan="2">
+                        <td align="right">
+                            <label>Descrição: <textarea name="descricao" cols="30" rows="3" required></textarea></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            <label>Preço:<input type="number" step="0.01" name="preco" required /></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            <label>Prazo de Entrega (dias):<input type="number" name="prazo_entrega" required /></label>
+                        </td>
+                    </tr>       
+                    <table>
+                    <tr>
+                        <td align="right">
+                            <label>Foto: <input type="file" name="foto" accept="image/*" /></label>
+                        </td>
+                    </tr>
+                    <br>
+                    </table>
+                    <br>
+                    <button type="submit">Incluir Produto</button>
+                    <button type="reset">Limpar</button>
+            </form>
+
+            <span>
+                <h3>Produtos Cadastrados</h3>
+                <p><i>//Exemplo de produto cadastrado</i></p>
+                <strong>Produto Exemplo 1</strong><br />
+                <img src="https://http2.mlstatic.com/D_NQ_NP_986995-MLB47659539840_092021-W.jpg" style="width: 200px;" alt="Imagem ilustrativa"><br>
+                Teclado Usb Standard Abnt2 Padrão Brasileiro Excelente.<br />
+                Preço: R$ 100,00 - Prazo: 5 dias<br /><br>
+                <button>Alterar</button>
+                <button>Excluir</button>
+            </span>
+            <hr>
+            <button align="center">
+                <a href="./cadastroVendedor.html" style="text-decoration: none; color: inherit">Voltar
+                </a>
+            </button>
+            <button align="right">
+                <a href="./index.html" style="text-decoration: none; color: inherit">Início
+                </a>
+            </button>
+        </section>
+    </div>
+</body>
+
+</html>
